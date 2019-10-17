@@ -17,6 +17,10 @@ public class BasicCode {
   }
 
   public static void main(String[] args) {
+
+    char a1 = 'A';
+    int a2 = 'A';
+
     String msg = "Helllo";
     int z = add(5, 7);
     System.out.println(msg);
