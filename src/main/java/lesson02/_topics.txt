@@ -1,0 +1,26 @@
+hard skills:
+------------
+- multidimensional arrays
+- copying array
+- anonymous arrays
+- returning array
+
+- language control structures:
+    - loops: for / while-do / do-while / break-continue
+- Logical operations: !, &&, ||
+- operator arity: unary / binary / ternary
+- ternary operator
+- how to swap values of two variables between each other
+
+- variable vs const / final / mutable - immutable
+- code structure: methods / functions / classes
+
+- varargs parameters
+- function overload
+
+- String
+- passing by value / by reference
+- primitive types (int, boolean, char, ...) vs reference types (object and array)
+
+- Classes wrappers Integer / Long ...
+- classes / objects

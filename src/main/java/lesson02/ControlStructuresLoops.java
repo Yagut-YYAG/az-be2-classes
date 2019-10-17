@@ -4,7 +4,6 @@ public class ControlStructuresLoops {
     public static void main(String[] args) {
         // for loop, full syntax
         for (int i = 0; i < 10; i++) { // 0..9
-            System.out.println("x=" + i + ", x*x=" + i*i);
             System.out.printf("x=%d, x*x=%d\n", i, i*i);
         }
         System.out.println("----");

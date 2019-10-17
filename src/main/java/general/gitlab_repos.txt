@@ -1,11 +1,11 @@
 Code from classes:
 ==================
 https://gitlab.com/dan-it/az-groups/az-be2-classes
-https://gitlab.com/dan-it/az-groups/az-be2-classes.git
+-> https://gitlab.com/dan-it/az-groups/az-be2-classes.git
 git@gitlab.com:dan-it/az-groups/az-be2-classes.git (ssh key uploading required)
 
 Homework:
 =========
 https://gitlab.com/dan-it/az-groups/az-be2
-https://gitlab.com/dan-it/az-groups/az-be2.git
+-> https://gitlab.com/dan-it/az-groups/az-be2.git
 git@gitlab.com:dan-it/az-groups/az-be2.git (ssh key uploading required)
