@@ -2,11 +2,17 @@ package lesson01;
 
 public class BasicCode {
 
+  static int z_default = 99;
   char c = 'z';
   int price = 30;
 
   public static int add(int a, int b) {
     int c = a + b;
+    String s = "alex";
+    for (int i = 0; i < s.length(); i++) {
+      char charAt = s.charAt(i);
+      c = c + charAt;
+    }
     return c;
   }
 
