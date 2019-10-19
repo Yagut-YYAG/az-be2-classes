@@ -23,7 +23,7 @@ public class ArrayMultidimensional {
         for (int i = 0; i < c.length; i++) {
             for (int j = 0; j < c[i].length; j++) {
                 for (int k = 0; k < c[i][j].length; k++) {
-                    System.out.printf("%3d ", c[i][j][k]+" ");
+                    System.out.printf("%d ", c[i][j][k]);
                 }
                 System.out.println("  ");
             }

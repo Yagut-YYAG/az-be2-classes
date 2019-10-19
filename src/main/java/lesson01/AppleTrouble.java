@@ -13,6 +13,7 @@ public class AppleTrouble {
 
         // solution #2
         int price = 2;
-        System.out.printf("Apple costs %d USD\n", price);
+        String apples = String.format("Apple costs %d USD\n", price);
+        System.out.print(apples);
     }
 }
