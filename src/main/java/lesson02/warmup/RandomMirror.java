@@ -6,15 +6,22 @@ import java.util.Arrays;
 public class RandomMirror {
 
   public static int[] filter_negatives(int[] origin) {
+    int[] result = new int[origin.length];
+    int pos = 0;
 
+    for (int item: origin) {
+      if (item < 0) result[pos++] = item;
+    }
+
+    return pos == origin.length ? result : Arrays.copyOf(result, pos);
   }
 
   public static int[] filter_odd(int[] origin) {
-
+    throw new IllegalArgumentException("not implemented yet");
   }
 
   public static int[] filter_even(int[] origin) {
-
+    throw new IllegalArgumentException("not implemented yet");
   }
 
   public static void main(String[] args) {
