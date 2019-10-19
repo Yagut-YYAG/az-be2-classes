@@ -4,6 +4,19 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class RandomMirror {
+
+  public static int[] filter_negatives(int[] origin) {
+
+  }
+
+  public static int[] filter_odd(int[] origin) {
+
+  }
+
+  public static int[] filter_even(int[] origin) {
+
+  }
+
   public static void main(String[] args) {
     int min = -5;
     int max = 5;
@@ -23,9 +36,9 @@ public class RandomMirror {
     String s = Arrays.toString(reverted);
     System.out.println(s);
 
-    int[] negatives = ;
-    int[] odd = ;
-    int[] even = ;
+    int[] negatives = filter_negatives(data);
+    int[] odd = filter_odd(data);
+    int[] even = filter_even(data);
 
 
 
