@@ -8,7 +8,7 @@ public class ArityApp {
     // ternary
     public static void main(String[] args) {
         int a = 5 + 7; // binary
-        boolean isEligigle = ! false; // unary, prefix
+        boolean isEligible = ! false; // unary, prefix
         int z=6;
         z++; // unary, postfix
         String s;
