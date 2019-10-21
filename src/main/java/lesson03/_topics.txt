@@ -1,0 +1,5 @@
+- jmm
+- oop: constructor/getter/setter
+- enums
+- equals
+
