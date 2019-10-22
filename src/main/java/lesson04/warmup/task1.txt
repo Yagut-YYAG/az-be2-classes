@@ -9,5 +9,3 @@ The task is:
      - to verify whether all the letters belong to the required range
      - to verify that the resulted string is not null
      - to verify that the resulted string has a valid length
-
-3. to make a small change
