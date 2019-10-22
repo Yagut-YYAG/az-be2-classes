@@ -3,7 +3,7 @@ package lesson04.warmup;
 public class Task1 {
 
   public String gen_random(int length) {
-    int range = 'Z' - 'A' + 5;
+    int range = 'Z' - 'A' + 1;
     String outcome = "";
     for (int i = 0; i < length; i++) {
       boolean way = (int)((Math.random()*100))%2==0;
