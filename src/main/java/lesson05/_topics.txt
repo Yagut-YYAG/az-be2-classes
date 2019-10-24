@@ -1,0 +1,6 @@
+- pass by value/by reference
+- OOP
+- constructors
+- getter / setter
+- hash code + equals
+- collections
