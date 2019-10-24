@@ -13,17 +13,20 @@ public class GeometricApp {
     figures.add(new Square());
     figures.add(new Triangle());
 
+//    for (int i = 0; i < figures.size(); i++) {
+//      total_area += figures.get(i).area();
+//    }
+
     int total_area = 0;
 
     for (Figure f: figures) {
       total_area += f.area();
     }
 
-//    for (int i = 0; i < figures.size(); i++) {
-//      total_area += figures.get(i).area();
-//    }
     int[] total = {0};
+
     figures.forEach(f -> total[0] += f.area());
+
     figures.forEach(new Consumer<Figure>() {
       @Override
       public void accept(Figure f) {
