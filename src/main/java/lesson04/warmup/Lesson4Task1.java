@@ -1,8 +1,8 @@
 package lesson04.warmup;
 
-public class Task1 {
+public class Lesson4Task1 {
 
-  public String gen_random(int length) {
+  public String generate_random_string(int length) {
     int range = 'Z' - 'A' + 1;
     String outcome = "";
     for (int i = 0; i < length; i++) {
@@ -18,9 +18,9 @@ public class Task1 {
   }
 
   public static void main(String[] args) {
-    Task1 t = new Task1();
-    String s1 = t.gen_random(10); // nhdfsccrsr
-    String s2 = t.gen_random(5); // gsfed
+    Lesson4Task1 t = new Lesson4Task1();
+    String s1 = t.generate_random_string(10); // nhdfsccrsr
+    String s2 = t.generate_random_string(5); // gsfed
 
     if (s1.length() == 10) {
       System.out.println("OK");

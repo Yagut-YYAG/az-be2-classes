@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 
 public class Task1Test {
 
-  Task1 t;
+  Lesson4Task1 t;
 
   public boolean isCharValid(char c) {
     return (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z');
@@ -20,7 +20,7 @@ public class Task1Test {
 
   @Before // before each method (test)
   public void before999() {
-    this.t = new Task1();
+    this.t = new Lesson4Task1();
   }
 
   @After
@@ -30,20 +30,20 @@ public class Task1Test {
 
   @Test
   public void gen_random1() {
-    String generated = t.gen_random(10);
+    String generated = t.generate_random_string(10);
     assertEquals(10, generated.length());
   }
 
   @Test
   public void gen_random2() {
-    String generated = t.gen_random(10);
+    String generated = t.generate_random_string(10);
     char charAt0 = generated.charAt(0);
     assertTrue(isCharValid(charAt0));
   }
 
   @Test
   public void gen_random3() {
-    String generated = t.gen_random(10);
+    String generated = t.generate_random_string(10);
     for (int i = 0; i < generated.length(); i++) {
       char c = generated.charAt(i);
       assertTrue(isCharValid(c));
@@ -52,7 +52,7 @@ public class Task1Test {
 
   @Test
   public void gen_random4() {
-    String generated = t.gen_random(10);
+    String generated = t.generate_random_string(10);
     for (int i = 0; i < generated.length(); i++) {
       char c = generated.charAt(i);
       boolean charInvalid = isCharInvalid(c);
