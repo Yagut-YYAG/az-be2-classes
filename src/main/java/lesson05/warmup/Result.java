@@ -6,7 +6,9 @@ public class Result {
   private final String upper_vowels;
   private final String lower_consonants;
   private final String lower_vowels;
+  private String extraData;
 
+  // constructor
   public Result(String origin,
                 String upper_consonants,
                 String upper_vowels,
@@ -19,6 +21,7 @@ public class Result {
     this.lower_vowels = lower_vowels;
   }
 
+  // getter
   public String getOrigin() {
     return origin;
   }
@@ -37,5 +40,15 @@ public class Result {
 
   public String getLower_vowels() {
     return lower_vowels;
+  }
+
+  // getter
+  public String getExtraData() {
+    return extraData;
+  }
+
+  // setter
+  public void setExtraData(String extraData) {
+    this.extraData = extraData;
   }
 }

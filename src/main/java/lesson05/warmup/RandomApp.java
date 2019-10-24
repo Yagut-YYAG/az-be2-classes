@@ -70,10 +70,12 @@ public class RandomApp {
     String origin = t.generate_random_string(30);
     RandomApp app = new RandomApp();
     Result result = app.process(origin);
+    result.setExtraData("Hello :)");
     app.print(result);
   }
 
   private void print(Result result) {
+    result.getExtraData();
     System.out.printf("Origin:%s\nUC:%s\nUV:%s\nLC:%s\nLV:%s\n",
         result.getOrigin(),
         result.getUpper_consonants(),
